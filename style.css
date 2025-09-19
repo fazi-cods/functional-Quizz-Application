@@ -1,0 +1,129 @@
+body {
+    background-color: #0b1832;
+    margin-top: 200px;
+    font-family: sans-serif;
+}
+
+#quizOption li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px 0;
+    background: #969595;
+    width: 40vw;
+    margin-left: 25vw;
+    border-radius: 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 1.5vw;
+    transition: 0.5s;
+}
+
+#quizOption li:hover {
+    background: #506975;
+    padding: 20px;
+    transition: 0.5s;
+    color: white;
+    padding-right: -200px;
+    /* align-items: center;
+    text-align: center; */
+    padding: 1.5vw;
+    border-radius: 20px;
+}
+
+#nextBtn,
+#finishBtn {
+    margin-top: 20px;
+    padding: 20px 30px;
+    margin-left: 27vw;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nextBtn:hover {
+    color: white;
+    background-color: green;
+}
+
+#nextBtn {
+    background: #007BFF;
+    color: white;
+}
+
+#finishBtn {
+    background: #28a745;
+    color: white;
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#question {
+    margin-left: 35vw;
+    font-family: sans-serif;
+    color: white;
+}
+
+#score {
+    margin-left: 40.5vw;
+    font-size: 2.5vw;
+    color: white;
+}
+
+#restartBtn {
+    margin-left: 43vw;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 1vw;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    transition: 0.5;
+}
+
+#restartBtn:hover {
+    background-color: #437950;
+    border-radius: 10px;
+    transition: 0.10;
+}
+
+h3 {
+    margin-left: 25.5vw;
+    font-size: 2.5vw;
+    color: white;
+
+}
+
+#result {
+    color: white;
+    font-size: 2vw;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 33.5vw;
+    border-radius: 10px;
+    margin-top: 5vw;
+    text-align: center;
+    background-color: #11356b;
+}
+#timer{
+    color: white;
+    text-align: center;
+}
+#questionNumber{
+    color: white;
+    text-align: center;
+}
+#image {
+    width: 300px;
+    margin-top: -10vw;
+    margin-left: 38vw;
+}

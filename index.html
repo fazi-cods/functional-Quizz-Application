@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App by Faizan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <div>
+            <p id="question" style="font-size: 30px; font-weight: bold;">Who is the founder of pakistan?</p>
+            <ul id="quizOption">
+                <li>Quaid</li>
+                <li>Altaf</li>
+                <li>Hassan</li>
+                <li>Kaif</li>
+            </ul>
+        </div>
+        <div class="numbers">
+        <div id="timer">Time Left: 01:00</div>
+        <div id="questionNumber"></div>
+        </div>
+        <h2 id="question"></h2>
+        <ul id="quizOption"></ul>
+
+        <button id="nextBtn" onclick="goToNext()">Next</button>
+        <button id="finishBtn" onclick="showResult()" style="display:none">Finish</button>
+
+        <h3 id="scores"> <span id="score" style="display: none;"></span></h3>
+        <div id="result">
+            <button id="restartBtn" class="btn" onclick="restartQuizz()" style="display: none;">Restart</button>
+        </div>
+        <button id="restartBtn" class="btn" onclick="restartQuizz()" style="display: none;">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
